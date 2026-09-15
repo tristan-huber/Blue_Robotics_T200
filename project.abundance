@@ -444,6 +444,85 @@
           "ioValue": 0
         }
       ]
+    },
+    {
+      "atomType": "Circle",
+      "x": 0.1,
+      "y": 0.7,
+      "uniqueID": "id-23111",
+      "ioValues": [
+        {
+          "name": "diameter",
+          "ioValue": 3.83,
+          "currentEquation": "3.83"
+        }
+      ]
+    },
+    {
+      "atomType": "Extrude",
+      "x": 0.2,
+      "y": 0.7,
+      "uniqueID": "id-23114",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "height",
+          "ioValue": 1.8,
+          "currentEquation": "1.8"
+        }
+      ]
+    },
+    {
+      "atomType": "Rotate",
+      "x": 0.3,
+      "y": 0.8,
+      "uniqueID": "id-23118",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "x-axis degrees",
+          "ioValue": 0
+        },
+        {
+          "name": "y-axis degrees",
+          "ioValue": 90,
+          "currentEquation": "90"
+        },
+        {
+          "name": "z-axis degrees",
+          "ioValue": 0
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.4,
+      "y": 0.8,
+      "uniqueID": "id-23124",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": -0.9
+        },
+        {
+          "name": "yDist",
+          "ioValue": 0
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
+        }
+      ]
     }
   ],
   "allConnectors": [
@@ -471,6 +550,21 @@
       "ap2Name": "geometry",
       "ap1ID": "id-23105",
       "ap2ID": "id-23023"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-23111",
+      "ap2ID": "id-23114"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-23114",
+      "ap2ID": "id-23118"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-23118",
+      "ap2ID": "id-23124"
     }
   ],
   "unitsKey": "Inches",
