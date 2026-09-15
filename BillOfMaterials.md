@@ -2,4 +2,5 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
-|Total: |0|$0.00| |
+|T200|1|$230.00|https://bluerobotics.com/store/thrusters/t100-t200-thrusters/t200-thruster-r2-rp/|
+|Total: |1|$230.00| |
